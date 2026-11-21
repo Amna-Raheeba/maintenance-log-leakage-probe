@@ -1,0 +1,102 @@
+{
+  "baseline_precision": 0.423077,
+  "baseline_recall": 0.488889,
+  "headline": {
+    "baseline_precision": 0.423077,
+    "baseline_recall": 0.488889,
+    "mean_all_auc": 0.937657,
+    "mean_cleaned_auc": 0.906163,
+    "mean_collapse": 0.031493,
+    "mean_lead_mae": 1.003704,
+    "probe_precision": 1.0,
+    "probe_recall": 0.733333
+  },
+  "leads": [
+    3,
+    7,
+    14
+  ],
+  "n_runs": 15,
+  "per_family": {
+    "inspections": {
+      "flagged_runs": 11,
+      "mean_leakage_score": 0.206252,
+      "mean_real_auc": 0.730439,
+      "n_runs": 15
+    },
+    "load": {
+      "flagged_runs": 0,
+      "mean_leakage_score": 0.0,
+      "mean_real_auc": 0.510192,
+      "n_runs": 15
+    },
+    "part_swaps": {
+      "flagged_runs": 10,
+      "mean_leakage_score": 0.144812,
+      "mean_real_auc": 0.657002,
+      "n_runs": 15
+    },
+    "scheduled_maintenance": {
+      "flagged_runs": 0,
+      "mean_leakage_score": 0.026334,
+      "mean_real_auc": 0.548855,
+      "n_runs": 15
+    },
+    "thermal": {
+      "flagged_runs": 0,
+      "mean_leakage_score": 0.0,
+      "mean_real_auc": 0.756192,
+      "n_runs": 15
+    },
+    "vibration": {
+      "flagged_runs": 0,
+      "mean_leakage_score": 0.0,
+      "mean_real_auc": 0.811055,
+      "n_runs": 15
+    },
+    "work_orders": {
+      "flagged_runs": 12,
+      "mean_leakage_score": 0.230658,
+      "mean_real_auc": 0.735152,
+      "n_runs": 15
+    }
+  },
+  "per_lead": {
+    "3": {
+      "lead_mae": 0.724444,
+      "mean_all_auc": 0.908767,
+      "mean_cleaned_auc": 0.907983,
+      "mean_collapse": 0.000783,
+      "mean_leak_only_auc": 0.578343,
+      "mean_sensors_only_auc": 0.905253,
+      "n_runs": 5
+    },
+    "7": {
+      "lead_mae": 0.876667,
+      "mean_all_auc": 0.928376,
+      "mean_cleaned_auc": 0.905253,
+      "mean_collapse": 0.023122,
+      "mean_leak_only_auc": 0.736815,
+      "mean_sensors_only_auc": 0.905253,
+      "n_runs": 5
+    },
+    "14": {
+      "lead_mae": 1.41,
+      "mean_all_auc": 0.975827,
+      "mean_cleaned_auc": 0.905253,
+      "mean_collapse": 0.070574,
+      "mean_leak_only_auc": 0.935412,
+      "mean_sensors_only_auc": 0.905253,
+      "n_runs": 5
+    }
+  },
+  "probe_precision": 1.0,
+  "probe_recall": 0.733333,
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105
+  ]
+}

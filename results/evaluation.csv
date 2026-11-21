@@ -1,0 +1,8 @@
+family,mean_real_auc,mean_leakage_score,flagged_runs,n_runs
+vibration,0.8111,0.0000,0,15
+thermal,0.7562,0.0000,0,15
+load,0.5102,0.0000,0,15
+work_orders,0.7352,0.2307,12,15
+inspections,0.7304,0.2063,11,15
+part_swaps,0.6570,0.1448,10,15
+scheduled_maintenance,0.5489,0.0263,0,15
