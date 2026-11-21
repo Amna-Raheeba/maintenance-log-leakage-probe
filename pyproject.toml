@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "maintenance-log-leakage-probe"
+version = "0.1.0"
+description = "A probe for intervention leakage in predictive-maintenance datasets: an event-permutation null over maintenance-log timelines separates features that predict failure from features that merely record that the crew already suspected it."
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[project.optional-dependencies]
+dashboard = ["streamlit>=1.30"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
