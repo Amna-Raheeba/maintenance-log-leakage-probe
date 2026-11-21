@@ -1,0 +1,150 @@
+{
+ "events": [
+  {
+   "day": 12,
+   "kind": "work_order"
+  },
+  {
+   "day": 19,
+   "kind": "work_order"
+  },
+  {
+   "day": 25,
+   "kind": "scheduled_service"
+  },
+  {
+   "day": 30,
+   "kind": "emergency_order"
+  },
+  {
+   "day": 53,
+   "kind": "scheduled_service"
+  },
+  {
+   "day": 54,
+   "kind": "inspection"
+  },
+  {
+   "day": 63,
+   "kind": "work_order"
+  },
+  {
+   "day": 79,
+   "kind": "inspection"
+  },
+  {
+   "day": 83,
+   "kind": "scheduled_service"
+  },
+  {
+   "day": 88,
+   "kind": "part_swap"
+  },
+  {
+   "day": 98,
+   "kind": "emergency_order"
+  },
+  {
+   "day": 98,
+   "kind": "work_order"
+  },
+  {
+   "day": 99,
+   "kind": "inspection"
+  },
+  {
+   "day": 99,
+   "kind": "work_order"
+  },
+  {
+   "day": 101,
+   "kind": "inspection"
+  },
+  {
+   "day": 101,
+   "kind": "work_order"
+  },
+  {
+   "day": 102,
+   "kind": "inspection"
+  },
+  {
+   "day": 102,
+   "kind": "work_order"
+  },
+  {
+   "day": 103,
+   "kind": "emergency_order"
+  },
+  {
+   "day": 103,
+   "kind": "work_order"
+  },
+  {
+   "day": 104,
+   "kind": "work_order"
+  }
+ ],
+ "failure_time": 105,
+ "lead": 8,
+ "note": "Ground truth for the demo unit. The suspicion_time is what the probe must infer from the event log alone; feature extraction never sees it.",
+ "sensor_snapshots_every_10_days": [
+  {
+   "day": 0,
+   "temp": 53.49,
+   "vib": 3.04
+  },
+  {
+   "day": 10,
+   "temp": 59.21,
+   "vib": 1.152
+  },
+  {
+   "day": 20,
+   "temp": 55.91,
+   "vib": 2.902
+  },
+  {
+   "day": 30,
+   "temp": 56.95,
+   "vib": 2.207
+  },
+  {
+   "day": 40,
+   "temp": 56.08,
+   "vib": 0.69
+  },
+  {
+   "day": 50,
+   "temp": 56.84,
+   "vib": 2.313
+  },
+  {
+   "day": 60,
+   "temp": 60.09,
+   "vib": 2.831
+  },
+  {
+   "day": 70,
+   "temp": 57.16,
+   "vib": 0.9
+  },
+  {
+   "day": 80,
+   "temp": 65.46,
+   "vib": 3.048
+  },
+  {
+   "day": 90,
+   "temp": 60.62,
+   "vib": 3.774
+  },
+  {
+   "day": 100,
+   "temp": 59.33,
+   "vib": 2.057
+  }
+ ],
+ "suspicion_time": 97,
+ "unit_id": "unit-001"
+}
